@@ -45,6 +45,9 @@ img.bg-pc{
 .min-vh-30{
   min-height:30vh !important;
 }
+.text-height{
+  height: 600px !important;
+}
 .svg-item{
   margin-right:81px;
 }
@@ -162,7 +165,7 @@ img.bg-pc{
     width: 80% !important;
   }
   .text-gp{
-    margin-top: 100px;
+    margin-top: 150px;
   }
 }
 @include media-breakpoint-only(lg) {
