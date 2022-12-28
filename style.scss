@@ -217,8 +217,10 @@ img.bg-pc{
   .svg-item{
     margin-right:60px;
   }
-
-
 }
-
+@include media-breakpoint-up(xxl){
+  .img-size-xxl{
+    height: 205px !important;
+  }
+}
 
